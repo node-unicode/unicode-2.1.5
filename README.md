@@ -67,6 +67,10 @@ import ASCIICodePoints from '@unicode/unicode-2.1.5/Binary_Property/ASCII/code-p
 import ASCIISymbols from '@unicode/unicode-2.1.5/Binary_Property/ASCII/symbols.mjs';
 import ASCIIRegex from '@unicode/unicode-2.1.5/Binary_Property/ASCII/regex.mjs';
 
+import AlphabeticCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Alphabetic/code-points.mjs';
+import AlphabeticSymbols from '@unicode/unicode-2.1.5/Binary_Property/Alphabetic/symbols.mjs';
+import AlphabeticRegex from '@unicode/unicode-2.1.5/Binary_Property/Alphabetic/regex.mjs';
+
 import AnyCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Any/code-points.mjs';
 import AnySymbols from '@unicode/unicode-2.1.5/Binary_Property/Any/symbols.mjs';
 import AnyRegex from '@unicode/unicode-2.1.5/Binary_Property/Any/regex.mjs';
@@ -75,9 +79,149 @@ import AssignedCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Assigned/
 import AssignedSymbols from '@unicode/unicode-2.1.5/Binary_Property/Assigned/symbols.mjs';
 import AssignedRegex from '@unicode/unicode-2.1.5/Binary_Property/Assigned/regex.mjs';
 
+import Bidi_ControlCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Bidi_Control/code-points.mjs';
+import Bidi_ControlSymbols from '@unicode/unicode-2.1.5/Binary_Property/Bidi_Control/symbols.mjs';
+import Bidi_ControlRegex from '@unicode/unicode-2.1.5/Binary_Property/Bidi_Control/regex.mjs';
+
 import Bidi_MirroredCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Bidi_Mirrored/code-points.mjs';
 import Bidi_MirroredSymbols from '@unicode/unicode-2.1.5/Binary_Property/Bidi_Mirrored/symbols.mjs';
 import Bidi_MirroredRegex from '@unicode/unicode-2.1.5/Binary_Property/Bidi_Mirrored/regex.mjs';
+
+import CombiningCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Combining/code-points.mjs';
+import CombiningSymbols from '@unicode/unicode-2.1.5/Binary_Property/Combining/symbols.mjs';
+import CombiningRegex from '@unicode/unicode-2.1.5/Binary_Property/Combining/regex.mjs';
+
+import CompositeCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Composite/code-points.mjs';
+import CompositeSymbols from '@unicode/unicode-2.1.5/Binary_Property/Composite/symbols.mjs';
+import CompositeRegex from '@unicode/unicode-2.1.5/Binary_Property/Composite/regex.mjs';
+
+import Currency_SymbolCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Currency_Symbol/code-points.mjs';
+import Currency_SymbolSymbols from '@unicode/unicode-2.1.5/Binary_Property/Currency_Symbol/symbols.mjs';
+import Currency_SymbolRegex from '@unicode/unicode-2.1.5/Binary_Property/Currency_Symbol/regex.mjs';
+
+import DashCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Dash/code-points.mjs';
+import DashSymbols from '@unicode/unicode-2.1.5/Binary_Property/Dash/symbols.mjs';
+import DashRegex from '@unicode/unicode-2.1.5/Binary_Property/Dash/regex.mjs';
+
+import Decimal_DigitCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Decimal_Digit/code-points.mjs';
+import Decimal_DigitSymbols from '@unicode/unicode-2.1.5/Binary_Property/Decimal_Digit/symbols.mjs';
+import Decimal_DigitRegex from '@unicode/unicode-2.1.5/Binary_Property/Decimal_Digit/regex.mjs';
+
+import DelimiterCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Delimiter/code-points.mjs';
+import DelimiterSymbols from '@unicode/unicode-2.1.5/Binary_Property/Delimiter/symbols.mjs';
+import DelimiterRegex from '@unicode/unicode-2.1.5/Binary_Property/Delimiter/regex.mjs';
+
+import DiacriticCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Diacritic/code-points.mjs';
+import DiacriticSymbols from '@unicode/unicode-2.1.5/Binary_Property/Diacritic/symbols.mjs';
+import DiacriticRegex from '@unicode/unicode-2.1.5/Binary_Property/Diacritic/regex.mjs';
+
+import ExtenderCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Extender/code-points.mjs';
+import ExtenderSymbols from '@unicode/unicode-2.1.5/Binary_Property/Extender/symbols.mjs';
+import ExtenderRegex from '@unicode/unicode-2.1.5/Binary_Property/Extender/regex.mjs';
+
+import Format_ControlCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Format_Control/code-points.mjs';
+import Format_ControlSymbols from '@unicode/unicode-2.1.5/Binary_Property/Format_Control/symbols.mjs';
+import Format_ControlRegex from '@unicode/unicode-2.1.5/Binary_Property/Format_Control/regex.mjs';
+
+import Hex_DigitCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Hex_Digit/code-points.mjs';
+import Hex_DigitSymbols from '@unicode/unicode-2.1.5/Binary_Property/Hex_Digit/symbols.mjs';
+import Hex_DigitRegex from '@unicode/unicode-2.1.5/Binary_Property/Hex_Digit/regex.mjs';
+
+import High_SurrogateCodePoints from '@unicode/unicode-2.1.5/Binary_Property/High_Surrogate/code-points.mjs';
+import High_SurrogateSymbols from '@unicode/unicode-2.1.5/Binary_Property/High_Surrogate/symbols.mjs';
+import High_SurrogateRegex from '@unicode/unicode-2.1.5/Binary_Property/High_Surrogate/regex.mjs';
+
+import HyphenCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Hyphen/code-points.mjs';
+import HyphenSymbols from '@unicode/unicode-2.1.5/Binary_Property/Hyphen/symbols.mjs';
+import HyphenRegex from '@unicode/unicode-2.1.5/Binary_Property/Hyphen/regex.mjs';
+
+import ISO_ControlCodePoints from '@unicode/unicode-2.1.5/Binary_Property/ISO_Control/code-points.mjs';
+import ISO_ControlSymbols from '@unicode/unicode-2.1.5/Binary_Property/ISO_Control/symbols.mjs';
+import ISO_ControlRegex from '@unicode/unicode-2.1.5/Binary_Property/ISO_Control/regex.mjs';
+
+import Identifier_PartCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Identifier_Part/code-points.mjs';
+import Identifier_PartSymbols from '@unicode/unicode-2.1.5/Binary_Property/Identifier_Part/symbols.mjs';
+import Identifier_PartRegex from '@unicode/unicode-2.1.5/Binary_Property/Identifier_Part/regex.mjs';
+
+import IdeographicCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Ideographic/code-points.mjs';
+import IdeographicSymbols from '@unicode/unicode-2.1.5/Binary_Property/Ideographic/symbols.mjs';
+import IdeographicRegex from '@unicode/unicode-2.1.5/Binary_Property/Ideographic/regex.mjs';
+
+import Ignorable_ControlCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Ignorable_Control/code-points.mjs';
+import Ignorable_ControlSymbols from '@unicode/unicode-2.1.5/Binary_Property/Ignorable_Control/symbols.mjs';
+import Ignorable_ControlRegex from '@unicode/unicode-2.1.5/Binary_Property/Ignorable_Control/regex.mjs';
+
+import Join_ControlCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Join_Control/code-points.mjs';
+import Join_ControlSymbols from '@unicode/unicode-2.1.5/Binary_Property/Join_Control/symbols.mjs';
+import Join_ControlRegex from '@unicode/unicode-2.1.5/Binary_Property/Join_Control/regex.mjs';
+
+import Left_of_PairCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Left_of_Pair/code-points.mjs';
+import Left_of_PairSymbols from '@unicode/unicode-2.1.5/Binary_Property/Left_of_Pair/symbols.mjs';
+import Left_of_PairRegex from '@unicode/unicode-2.1.5/Binary_Property/Left_of_Pair/regex.mjs';
+
+import Line_SeparatorCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Line_Separator/code-points.mjs';
+import Line_SeparatorSymbols from '@unicode/unicode-2.1.5/Binary_Property/Line_Separator/symbols.mjs';
+import Line_SeparatorRegex from '@unicode/unicode-2.1.5/Binary_Property/Line_Separator/regex.mjs';
+
+import Low_SurrogateCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Low_Surrogate/code-points.mjs';
+import Low_SurrogateSymbols from '@unicode/unicode-2.1.5/Binary_Property/Low_Surrogate/symbols.mjs';
+import Low_SurrogateRegex from '@unicode/unicode-2.1.5/Binary_Property/Low_Surrogate/regex.mjs';
+
+import MathCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Math/code-points.mjs';
+import MathSymbols from '@unicode/unicode-2.1.5/Binary_Property/Math/symbols.mjs';
+import MathRegex from '@unicode/unicode-2.1.5/Binary_Property/Math/regex.mjs';
+
+import Non_breakCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Non-break/code-points.mjs';
+import Non_breakSymbols from '@unicode/unicode-2.1.5/Binary_Property/Non-break/symbols.mjs';
+import Non_breakRegex from '@unicode/unicode-2.1.5/Binary_Property/Non-break/regex.mjs';
+
+import Non_spacingCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Non-spacing/code-points.mjs';
+import Non_spacingSymbols from '@unicode/unicode-2.1.5/Binary_Property/Non-spacing/symbols.mjs';
+import Non_spacingRegex from '@unicode/unicode-2.1.5/Binary_Property/Non-spacing/regex.mjs';
+
+import NumericCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Numeric/code-points.mjs';
+import NumericSymbols from '@unicode/unicode-2.1.5/Binary_Property/Numeric/symbols.mjs';
+import NumericRegex from '@unicode/unicode-2.1.5/Binary_Property/Numeric/regex.mjs';
+
+import Paired_PunctuationCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Paired_Punctuation/code-points.mjs';
+import Paired_PunctuationSymbols from '@unicode/unicode-2.1.5/Binary_Property/Paired_Punctuation/symbols.mjs';
+import Paired_PunctuationRegex from '@unicode/unicode-2.1.5/Binary_Property/Paired_Punctuation/regex.mjs';
+
+import Paragraph_SeparatorCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Paragraph_Separator/code-points.mjs';
+import Paragraph_SeparatorSymbols from '@unicode/unicode-2.1.5/Binary_Property/Paragraph_Separator/symbols.mjs';
+import Paragraph_SeparatorRegex from '@unicode/unicode-2.1.5/Binary_Property/Paragraph_Separator/regex.mjs';
+
+import Private_UseCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Private_Use/code-points.mjs';
+import Private_UseSymbols from '@unicode/unicode-2.1.5/Binary_Property/Private_Use/symbols.mjs';
+import Private_UseRegex from '@unicode/unicode-2.1.5/Binary_Property/Private_Use/regex.mjs';
+
+import Private_Use_High_SurrogateCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Private_Use_High_Surrogate/code-points.mjs';
+import Private_Use_High_SurrogateSymbols from '@unicode/unicode-2.1.5/Binary_Property/Private_Use_High_Surrogate/symbols.mjs';
+import Private_Use_High_SurrogateRegex from '@unicode/unicode-2.1.5/Binary_Property/Private_Use_High_Surrogate/regex.mjs';
+
+import PunctuationCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Punctuation/code-points.mjs';
+import PunctuationSymbols from '@unicode/unicode-2.1.5/Binary_Property/Punctuation/symbols.mjs';
+import PunctuationRegex from '@unicode/unicode-2.1.5/Binary_Property/Punctuation/regex.mjs';
+
+import Quotation_MarkCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Quotation_Mark/code-points.mjs';
+import Quotation_MarkSymbols from '@unicode/unicode-2.1.5/Binary_Property/Quotation_Mark/symbols.mjs';
+import Quotation_MarkRegex from '@unicode/unicode-2.1.5/Binary_Property/Quotation_Mark/regex.mjs';
+
+import SpaceCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Space/code-points.mjs';
+import SpaceSymbols from '@unicode/unicode-2.1.5/Binary_Property/Space/symbols.mjs';
+import SpaceRegex from '@unicode/unicode-2.1.5/Binary_Property/Space/regex.mjs';
+
+import Terminal_PunctuationCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Terminal_Punctuation/code-points.mjs';
+import Terminal_PunctuationSymbols from '@unicode/unicode-2.1.5/Binary_Property/Terminal_Punctuation/symbols.mjs';
+import Terminal_PunctuationRegex from '@unicode/unicode-2.1.5/Binary_Property/Terminal_Punctuation/regex.mjs';
+
+import White_SpaceCodePoints from '@unicode/unicode-2.1.5/Binary_Property/White_Space/code-points.mjs';
+import White_SpaceSymbols from '@unicode/unicode-2.1.5/Binary_Property/White_Space/symbols.mjs';
+import White_SpaceRegex from '@unicode/unicode-2.1.5/Binary_Property/White_Space/regex.mjs';
+
+import Zero_widthCodePoints from '@unicode/unicode-2.1.5/Binary_Property/Zero-width/code-points.mjs';
+import Zero_widthSymbols from '@unicode/unicode-2.1.5/Binary_Property/Zero-width/symbols.mjs';
+import Zero_widthRegex from '@unicode/unicode-2.1.5/Binary_Property/Zero-width/regex.mjs';
 
 // `General_Category`:
 
@@ -509,6 +653,10 @@ import Miscellaneous_TechnicalCodePoints from '@unicode/unicode-2.1.5/Block/Misc
 import Miscellaneous_TechnicalSymbols from '@unicode/unicode-2.1.5/Block/Miscellaneous_Technical/symbols.mjs';
 import Miscellaneous_TechnicalRegex from '@unicode/unicode-2.1.5/Block/Miscellaneous_Technical/regex.mjs';
 
+import No_BlockCodePoints from '@unicode/unicode-2.1.5/Block/No_Block/code-points.mjs';
+import No_BlockSymbols from '@unicode/unicode-2.1.5/Block/No_Block/symbols.mjs';
+import No_BlockRegex from '@unicode/unicode-2.1.5/Block/No_Block/regex.mjs';
+
 import Number_FormsCodePoints from '@unicode/unicode-2.1.5/Block/Number_Forms/code-points.mjs';
 import Number_FormsSymbols from '@unicode/unicode-2.1.5/Block/Number_Forms/symbols.mjs';
 import Number_FormsRegex from '@unicode/unicode-2.1.5/Block/Number_Forms/regex.mjs';
@@ -556,6 +704,28 @@ import ThaiRegex from '@unicode/unicode-2.1.5/Block/Thai/regex.mjs';
 import TibetanCodePoints from '@unicode/unicode-2.1.5/Block/Tibetan/code-points.mjs';
 import TibetanSymbols from '@unicode/unicode-2.1.5/Block/Tibetan/symbols.mjs';
 import TibetanRegex from '@unicode/unicode-2.1.5/Block/Tibetan/regex.mjs';
+
+// `Joining_Type`:
+
+import Dual_JoiningCodePoints from '@unicode/unicode-2.1.5/Joining_Type/Dual_Joining/code-points.mjs';
+import Dual_JoiningSymbols from '@unicode/unicode-2.1.5/Joining_Type/Dual_Joining/symbols.mjs';
+import Dual_JoiningRegex from '@unicode/unicode-2.1.5/Joining_Type/Dual_Joining/regex.mjs';
+
+import Join_CausingCodePoints from '@unicode/unicode-2.1.5/Joining_Type/Join_Causing/code-points.mjs';
+import Join_CausingSymbols from '@unicode/unicode-2.1.5/Joining_Type/Join_Causing/symbols.mjs';
+import Join_CausingRegex from '@unicode/unicode-2.1.5/Joining_Type/Join_Causing/regex.mjs';
+
+import Non_JoiningCodePoints from '@unicode/unicode-2.1.5/Joining_Type/Non_Joining/code-points.mjs';
+import Non_JoiningSymbols from '@unicode/unicode-2.1.5/Joining_Type/Non_Joining/symbols.mjs';
+import Non_JoiningRegex from '@unicode/unicode-2.1.5/Joining_Type/Non_Joining/regex.mjs';
+
+import Right_JoiningCodePoints from '@unicode/unicode-2.1.5/Joining_Type/Right_Joining/code-points.mjs';
+import Right_JoiningSymbols from '@unicode/unicode-2.1.5/Joining_Type/Right_Joining/symbols.mjs';
+import Right_JoiningRegex from '@unicode/unicode-2.1.5/Joining_Type/Right_Joining/regex.mjs';
+
+import TransparentCodePoints from '@unicode/unicode-2.1.5/Joining_Type/Transparent/code-points.mjs';
+import TransparentSymbols from '@unicode/unicode-2.1.5/Joining_Type/Transparent/symbols.mjs';
+import TransparentRegex from '@unicode/unicode-2.1.5/Joining_Type/Transparent/regex.mjs';
 
 // `Simple_Case_Mapping`:
 
